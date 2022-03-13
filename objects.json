@@ -1,0 +1,28 @@
+
+
+
+
+
+PartitionKey: 2021-02-11 <date>
+Id: MAJA-TALLINN-2 <tüüp>-<city>-<size>
+
+
+{
+    "objectID":[]
+}
+
+
+
+PartitionKey: MAJA-TALLINN-2 <tüüp>-<city>-<size> 
+Id: ObjectId
+
+{
+    "size":1,
+    "rooms":2,
+    "...":"..."
+}
+
+Id: ObjectId
+TTL: Week 
+
+{}
