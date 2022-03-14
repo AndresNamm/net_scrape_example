@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 public readonly record struct KvObject(double lat,double lng, int objectId);
 public readonly record struct KvSearchQuery(int dealTypeId,int countyId, int parishId, int roomNr ){
-        public string url =>  $"https://www.kv.ee/?act=search.objectcoords&deal_type={deal_type_id}&page=1&orderby=ob&page_size=100000&search_type=new&county={county_id}&parish={parish_id}&zoom=25&rooms_min={room_nr}&rooms_max={room_nr}";
+        public string url =>  $"https://www.kv.ee/?act=search.objectcoords&deal_type={dealTypeId}&page=1&orderby=ob&page_size=100000&search_type=new&county={countyId}&parish={parishId}&zoom=25&rooms_min={roomNr}&rooms_max={roomNr}";
 };
 
 
